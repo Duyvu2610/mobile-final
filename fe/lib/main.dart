@@ -23,8 +23,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
           fontFamily: 'DMSans',
-          primaryColor: Styles.primaryColor,
-          backgroundColor: Styles.primaryColor,
+          // primaryColor: Styles.primaryColor, colorScheme: ColorScheme(background: Styles.primaryColor),
         ),
         home: const BottomNav(),
       ),
